@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
+
+/*Header css start*/
+
+#top-header {
+    background: url('../img/background-header.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 800px;
+}
+
+#top-header-inside {
+    padding-top: 6vw;
+}
+
+#header-logo {
+    margin-left: 8vw;
+    width: calc(2vh + 3vmax);
+}
+
+#top-header div nav {
+    float: right;
+    display: inline;
+}
+
+#top-header div nav ul {
+    display: inline;
+    list-style: none;
+
+}
+
+#top-header div nav ul li {
+    display: inline;
+}
+
+#top-header div ul li a {
+    color: white;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-size: calc(5px + 0.5vw);
+}
+
+.nav-padding {
+    padding-right: calc(1vh + 3vmax);
+}
+
+#top-header div ul li a:hover {
+    text-shadow: 0 0 5px #ffffff;
+}
+
+/*Header css end*/
